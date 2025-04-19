@@ -1,5 +1,5 @@
 import '../styles/home.css'
-import Navigation from '../components/navigation'
+import Navigation from '../components/Navigation'
 import Service from '../components/Service'
 import logo from '../assets/logo-preto.jpeg'
 import logoBarra from '../assets/logo-barra-preto.jpeg'
