@@ -118,39 +118,92 @@ button{
 button:hover{
     transform: scale(1.05);
 }
-/* Responsive Design */
+/* Improved Responsive Design */
 
 /* For screens smaller than 1024px */
 @media (max-width: 1024px) {
+    header {
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
     header img {
-        margin-left: 2rem;
-        margin-right: 5rem;
+        margin: 0;
+        width: 50%;
+    }
+    header button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
     }
     .hours {
-        margin-left: 5rem;
-        gap: 1.5rem;
+        margin: 1rem;
+        width: 100%;
+        align-items: center;
+    }
+    .hours h2 {
+        margin: 0.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .hours p {
+        font-size: 1rem;
+        text-align: center;
     }
     .about h2 {
-        margin-left: 15rem;
+        margin: 1rem;
+        font-size: 2rem;
+        text-align: center;
     }
     .aboutus {
         flex-direction: column;
-        height: auto;
+        padding: 1rem;
     }
     .aboutus img {
         width: 80%;
         margin: 0 auto;
     }
     .aboutus p {
-        padding: 2rem;
-        margin-top: 0;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+    .download {
+        padding: 1rem;
+    }
+    .download p {
+        font-size: 1rem;
+        text-align: center;
     }
     .icons {
         flex-wrap: wrap;
         gap: 1rem;
+        justify-content: center;
+    }
+    .icons button, .icons a {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .feedbacks {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
     }
     .feedbacks img {
-        width: 50%;
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+    .footer-infos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .place-info {
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -158,74 +211,174 @@ button:hover{
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        height: auto;
         align-items: center;
+        padding: 1rem;
     }
     header img {
-        margin: 1rem 0;
+        margin: 0.5rem 0;
+        width: 60%;
     }
     header button {
-        margin: 0.5rem 0;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
     }
     .hours {
-        margin-left: 2rem;
+        margin: 1rem;
         width: 100%;
+        align-items: center;
     }
-    .about h2 {
-        margin-left: 5rem;
+    .hours h2 {
+        margin: 0.5rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .hours p {
+        font-size: 0.95rem;
         text-align: center;
     }
+    .about h2 {
+        margin: 1rem;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .aboutus {
+        flex-direction: column;
+        padding: 1rem;
+    }
     .aboutus img {
-        width: 100%;
+        width: 85%;
+        margin: 0 auto;
     }
     .aboutus p {
+        font-size: 0.95rem;
+        line-height: 1.5rem;
         padding: 1rem;
-        font-size: 1rem;
+        text-align: justify;
+    }
+    .download {
+        padding: 1rem;
     }
     .download p {
-        font-size: 1rem;
+        font-size: 0.95rem;
         text-align: center;
     }
     .icons {
-        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .icons button, .icons a {
+        font-size: 0.95rem;
+        padding: 0.5rem;
     }
     .feedbacks {
         flex-direction: column;
         align-items: center;
+        padding: 1rem;
     }
     .feedbacks img {
         width: 80%;
+        margin-bottom: 1rem;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+    .footer-infos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .place-info {
+        align-items: center;
+        text-align: center;
     }
 }
 
 /* For screens smaller than 480px */
 @media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+    }
     header img {
-        margin: 0;
-        width: 80%;
+        margin: 0.5rem 0;
+        width: 70%;
+    }
+    header button {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+    .hours {
+        margin: 0.5rem;
+        width: 100%;
+        align-items: center;
     }
     .hours h2 {
-        margin: 1rem;
+        margin: 0.5rem;
         text-align: center;
+        font-size: 1.2rem;
     }
     .hours p {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
     }
     .about h2 {
-        margin: 1rem;
+        margin: 0.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .aboutus {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+    .aboutus img {
+        width: 90%;
+        margin: 0 auto;
     }
     .aboutus p {
         font-size: 0.9rem;
-        line-height: 1.5rem;
+        line-height: 1.4rem;
+        padding: 0.5rem;
+        text-align: justify;
+    }
+    .download {
+        padding: 0.5rem;
     }
     .download p {
         font-size: 0.9rem;
+        text-align: center;
     }
     .icons {
         flex-direction: column;
         gap: 0.5rem;
+        align-items: center;
+    }
+    .icons button, .icons a {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+    .feedbacks {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
     }
     .feedbacks img {
-        width: 100%;
+        width: 90%;
+        margin-bottom: 0.5rem;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .footer-infos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .place-info {
+        align-items: center;
+        text-align: center;
     }
 }
