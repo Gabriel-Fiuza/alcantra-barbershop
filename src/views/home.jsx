@@ -3,6 +3,11 @@ import Navigation from '../components/Navigation'
 import Service from '../components/Service'
 import logo from '../assets/logo-preto.jpeg'
 import logoBarra from '../assets/logo-barra-preto.jpeg'
+import about from '../assets/aboutus.jpeg'
+import agende1 from '../assets/AGENDE_01.png'
+import agende2 from '../assets/AGENDE_02.png'
+import agende3 from '../assets/AGENDE_03.png'
+import agende4 from '../assets/AGENDE_04.png'
 
 export default function Home(){
     return(
@@ -16,7 +21,10 @@ export default function Home(){
             </header>
             <div className="about">
                 <div className="aboutus">
-                    <h2 >Sobre a barbearia</h2>
+                    <img src={about} alt="foto-da-barbearia" />
+                    <p>Com uma pegada contemporânea e foco total na experiência do cliente, a Alcantra Barber chegou pra mostrar que barbearia também é sobre conexão, estilo e identidade. Aqui, o corte é só o começo.
+                    Criada em 2022, e localizada na Praça Rotary, 945 — Bairro Monsenhor Parreiras, Luz/MG, a Alcantra Barber vem conquistando espaço com profissionalismo, qualidade nos serviços e um ambiente que mistura modernidade e autenticidade.
+                    Nossa missão é simples: fazer com que cada cliente se sinta em casa, saia satisfeito e volte não só pelo corte, mas pelo respeito, pelo papo e pela vibe única que rola por aqui.</p>
                 </div>
                 <h2 className="about-write"> NOSSOS SERVIÇOS:</h2>
                 <div className="services">
@@ -43,7 +51,10 @@ export default function Home(){
                 </div>
             </div>
             <div className="feedbacks">
-                <img height='500rem' width='100%' src={logo} alt="" />
+                <img src={agende1} alt="" />
+                <img src={agende2} alt="" />
+                <img src={agende3} alt="" />
+                <img src={agende4} alt="" />
             </div>
             <div className="local-hours-content">
                 <div className="hours">
