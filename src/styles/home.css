@@ -17,12 +17,14 @@ header img{
     display: flex;
 }
 .hours{
-    margin-left: 2rem;
-    margin-right: 10rem;
+    display: flex;
+}
+.hours img{
+    width: 16.5rem;
 }
 .location{
     margin: auto auto;
-    margin-left: 6rem;
+    margin-left: 4.2rem;
 }
 .footer{
     display: flex;

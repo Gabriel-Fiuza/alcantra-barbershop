@@ -7,7 +7,8 @@ import agende1 from '../assets/AGENDE_01.png'
 import agende2 from '../assets/AGENDE_02.png'
 import agende3 from '../assets/AGENDE_03.png'
 import agende4 from '../assets/AGENDE_04.png'
-import horario from '../assets/FUNCIONAMENTO_02.png'
+import horario1 from '../assets/FUNCIONAMENTO_01.png'
+import horario2 from '../assets/FUNCIONAMENTO_02.png'
 import onlyBarra from '../assets/logo-barra.jpeg'
 
 export default function Home(){
@@ -59,7 +60,8 @@ export default function Home(){
             </div>
             <div className="local-hours-content">
                 <div className="hours">
-                    <img src={horario} alt="horário de funcionamento" height='350' width='160%' />
+                    <img src={horario1} alt="horário de funcionamento" height='370' />
+                    <img src={horario2} alt="horário de funcionamento" height='370' />
                 </div>
                 <div className="location">
                     <iframe
