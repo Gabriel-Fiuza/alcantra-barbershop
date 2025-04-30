@@ -7,30 +7,22 @@ header{
     top: 0;
 }
 header img{
-    margin-left: 5rem;
-    margin-right: 14rem;
+    margin-left: 4rem;
+    margin-right: 11rem;
 }
 .services{
     margin-top: 2rem;
 }
 .local-hours-content{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
     display: flex;
 }
 .hours{
-    width: 40%;
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    gap: 2rem;
-    margin-left: 10rem;
+    margin-left: 2rem;
+    margin-right: 10rem;
 }
-.hours h2{
-    margin: 1rem 2.5rem;
-}
-.hours p{
-    font-size: 1.2rem;
+.location{
+    margin: auto auto;
+    margin-left: 6rem;
 }
 .footer{
     display: flex;
@@ -39,11 +31,11 @@ header img{
     color: #fff;
 }
 .logo-barra{
-    height: 12rem;
-    width: 12rem;
+    height: 11rem;
+    width: 11rem;
 }
 .footer-infos{
-    margin: auto 3rem;
+    margin: auto 0;
     display: flex;
 }
 .place-info{
@@ -51,10 +43,12 @@ header img{
     flex-direction: column;
     gap: .5rem;
 }
-header button{
+header a{
+    
     background-color: rgb(218, 218, 218);
-    margin: 0.8rem 1rem;
+    margin: auto;
     font-size: 1.2rem;
+    margin-left: 0.5rem;
     cursor: pointer;
 }
 .about{
@@ -62,18 +56,20 @@ header button{
     flex-direction: column;
 }
 .about h2{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
     margin-top: 2rem;
-    margin-left: 28rem;
+    margin-left: 26rem;
 }
 .aboutus{
     display: flex;
-    height: 31rem;
+    height: 30rem;
     border-bottom: 2px solid #000;
 }
 .aboutus p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-weight: 700;
-    line-height: 2.5rem;
+    line-height: 2rem;
     font-size: 1.2rem;
     padding: 4rem;
     margin-top: -2rem;
@@ -91,7 +87,9 @@ header button{
     align-items: center;
 }
 .download p{
-    margin-bottom: 1rem;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    margin-bottom: 2rem;
     font-size: 1.2rem;
 }
 .icons{
@@ -118,267 +116,4 @@ button{
 button:hover{
     transform: scale(1.05);
 }
-/* Improved Responsive Design */
 
-/* For screens smaller than 1024px */
-@media (max-width: 1024px) {
-    header {
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
-    header img {
-        margin: 0;
-        width: 50%;
-    }
-    header button {
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-    }
-    .hours {
-        margin: 1rem;
-        width: 100%;
-        align-items: center;
-    }
-    .hours h2 {
-        margin: 0.5rem;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    .hours p {
-        font-size: 1rem;
-        text-align: center;
-    }
-    .about h2 {
-        margin: 1rem;
-        font-size: 2rem;
-        text-align: center;
-    }
-    .aboutus {
-        flex-direction: column;
-        padding: 1rem;
-    }
-    .aboutus img {
-        width: 80%;
-        margin: 0 auto;
-    }
-    .aboutus p {
-        font-size: 1rem;
-        line-height: 1.6rem;
-        padding: 1rem;
-        text-align: justify;
-    }
-    .download {
-        padding: 1rem;
-    }
-    .download p {
-        font-size: 1rem;
-        text-align: center;
-    }
-    .icons {
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .icons button, .icons a {
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-    }
-    .feedbacks {
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-    }
-    .feedbacks img {
-        width: 70%;
-        margin-bottom: 1rem;
-    }
-    .footer {
-        flex-direction: column;
-        padding: 1rem;
-        text-align: center;
-    }
-    .footer-infos {
-        flex-direction: column;
-        align-items: center;
-    }
-    .place-info {
-        align-items: center;
-        text-align: center;
-    }
-}
-
-/* For screens smaller than 768px */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-    }
-    header img {
-        margin: 0.5rem 0;
-        width: 60%;
-    }
-    header button {
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-    }
-    .hours {
-        margin: 1rem;
-        width: 100%;
-        align-items: center;
-    }
-    .hours h2 {
-        margin: 0.5rem;
-        text-align: center;
-        font-size: 1.3rem;
-    }
-    .hours p {
-        font-size: 0.95rem;
-        text-align: center;
-    }
-    .about h2 {
-        margin: 1rem;
-        font-size: 1.8rem;
-        text-align: center;
-    }
-    .aboutus {
-        flex-direction: column;
-        padding: 1rem;
-    }
-    .aboutus img {
-        width: 85%;
-        margin: 0 auto;
-    }
-    .aboutus p {
-        font-size: 0.95rem;
-        line-height: 1.5rem;
-        padding: 1rem;
-        text-align: justify;
-    }
-    .download {
-        padding: 1rem;
-    }
-    .download p {
-        font-size: 0.95rem;
-        text-align: center;
-    }
-    .icons {
-        flex-direction: column;
-        gap: 0.5rem;
-        align-items: center;
-    }
-    .icons button, .icons a {
-        font-size: 0.95rem;
-        padding: 0.5rem;
-    }
-    .feedbacks {
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-    }
-    .feedbacks img {
-        width: 80%;
-        margin-bottom: 1rem;
-    }
-    .footer {
-        flex-direction: column;
-        padding: 1rem;
-        text-align: center;
-    }
-    .footer-infos {
-        flex-direction: column;
-        align-items: center;
-    }
-    .place-info {
-        align-items: center;
-        text-align: center;
-    }
-}
-
-/* For screens smaller than 480px */
-@media (max-width: 480px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        padding: 0.5rem;
-    }
-    header img {
-        margin: 0.5rem 0;
-        width: 70%;
-    }
-    header button {
-        font-size: 0.9rem;
-        padding: 0.4rem 0.8rem;
-    }
-    .hours {
-        margin: 0.5rem;
-        width: 100%;
-        align-items: center;
-    }
-    .hours h2 {
-        margin: 0.5rem;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-    .hours p {
-        font-size: 0.9rem;
-        text-align: center;
-    }
-    .about h2 {
-        margin: 0.5rem;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    .aboutus {
-        flex-direction: column;
-        padding: 0.5rem;
-    }
-    .aboutus img {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .aboutus p {
-        font-size: 0.9rem;
-        line-height: 1.4rem;
-        padding: 0.5rem;
-        text-align: justify;
-    }
-    .download {
-        padding: 0.5rem;
-    }
-    .download p {
-        font-size: 0.9rem;
-        text-align: center;
-    }
-    .icons {
-        flex-direction: column;
-        gap: 0.5rem;
-        align-items: center;
-    }
-    .icons button, .icons a {
-        font-size: 0.9rem;
-        padding: 0.4rem;
-    }
-    .feedbacks {
-        flex-direction: column;
-        align-items: center;
-        padding: 0.5rem;
-    }
-    .feedbacks img {
-        width: 90%;
-        margin-bottom: 0.5rem;
-    }
-    .footer {
-        flex-direction: column;
-        padding: 0.5rem;
-        text-align: center;
-    }
-    .footer-infos {
-        flex-direction: column;
-        align-items: center;
-    }
-    .place-info {
-        align-items: center;
-        text-align: center;
-    }
-}

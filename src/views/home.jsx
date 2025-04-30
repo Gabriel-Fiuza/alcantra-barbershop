@@ -2,12 +2,13 @@ import '../styles/home.css'
 import Navigation from '../components/Navigation'
 import Service from '../components/Service'
 import logo from '../assets/logo-preto.jpeg'
-import logoBarra from '../assets/logo-barra-preto.jpeg'
 import about from '../assets/aboutus.jpeg'
 import agende1 from '../assets/AGENDE_01.png'
 import agende2 from '../assets/AGENDE_02.png'
 import agende3 from '../assets/AGENDE_03.png'
 import agende4 from '../assets/AGENDE_04.png'
+import horario from '../assets/FUNCIONAMENTO_02.png'
+import onlyBarra from '../assets/logo-barra.jpeg'
 
 export default function Home(){
     return(
@@ -58,10 +59,7 @@ export default function Home(){
             </div>
             <div className="local-hours-content">
                 <div className="hours">
-                    <h2>Nossos horários</h2>
-                    <p>Segunda a sexta: 08:00 - 20:00</p>
-                    <p>Sábado: 08:00 - 19:00</p>
-                    <p>Domingo: Fechado</p>
+                    <img src={horario} alt="horário de funcionamento" height='350' width='160%' />
                 </div>
                 <div className="location">
                     <iframe
@@ -78,7 +76,7 @@ export default function Home(){
             </div>
             <footer>
                 <div className="footer">
-                    <img className='logo-barra' src={logoBarra} alt="" />
+                    <img className='logo-barra' src={onlyBarra} alt="" />
                     <div className="footer-infos">
                         <div className='place-info'>
                             <p>Praça Rotary 945 - Monsenhor Parreiras</p>
