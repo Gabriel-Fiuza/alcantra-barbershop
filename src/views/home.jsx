@@ -9,16 +9,18 @@ import agende3 from '../assets/AGENDE_03.png'
 import agende4 from '../assets/AGENDE_04.png'
 import horario1 from '../assets/FUNCIONAMENTO_01.png'
 import horario2 from '../assets/FUNCIONAMENTO_02.png'
-import onlyBarra from '../assets/logo-barra.jpeg'
+import onlyBarra from '../assets/footerimg.jpeg'
 
 export default function Home(){
     return(
         <div className="container">
             <header id="home">
                 <img src={logo} alt="" />
-                <Navigation  title="Home" />
-                <Navigation title="Sobre" />
-                <Navigation title="Clube" />
+                <div className="nav-icons">
+                    <Navigation  title="Home" />
+                    <Navigation title="Sobre" />
+                    <Navigation title="Clube" />
+                </div>
                 <a href="https://agendamentos.bestbarbers.app/barbershop/alcantrabarber" target='_blank'><button>Agende agora</button></a>
             </header>
             <div className="about">
@@ -47,8 +49,8 @@ export default function Home(){
                 <div className="download">
                     <p>Agende agora mesmo pelo app:</p>
                     <div className="icons">
-                        <a href="https://apps.apple.com/br/app/alcantra-barbearia/id6743761947"><button><img width="50" height="50" src="https://img.icons8.com/fluency/48/apple-app-store.png" alt="apple-app-store"/>App store</button></a>
-                        <a href="https://play.google.com/store/apps/details?id=alcantrabarbearia.bestbarbers.app"><button><img width="50" height="50" src="https://img.icons8.com/fluency/48/google-play-store-new.png" alt="google-play-store-new"/>Playstore</button></a>    
+                        <a href="https://apps.apple.com/br/app/alcantra-barbearia/id6743761947"><button><img  src="https://img.icons8.com/fluency/48/apple-app-store.png" alt="apple-app-store"/>App store</button></a>
+                        <a href="https://play.google.com/store/apps/details?id=alcantrabarbearia.bestbarbers.app"><button><img  src="https://img.icons8.com/fluency/48/google-play-store-new.png" alt="google-play-store-new"/>Playstore</button></a>    
                     </div>
                 </div>
             </div>
@@ -60,14 +62,12 @@ export default function Home(){
             </div>
             <div className="local-hours-content">
                 <div className="hours">
-                    <img src={horario1} alt="horário de funcionamento" height='370'/>
-                    <img src={horario2} alt="horário de funcionamento" height='370' />
+                    <img src={horario1} alt="horário de funcionamento"/>
+                    <img src={horario2} alt="horário de funcionamento" />
                 </div>
                 <div className="location">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1379.6401582235949!2d-45.683070574026964!3d-19.78994165606067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b3a5555b851f1f%3A0x218473d39e0bc24a!2sAlcantra%20barber!5e0!3m2!1spt-BR!2sbr!4v1744842730139!5m2!1spt-BR!2sbr"
-                        width="160%"
-                        height="300"
                         style={{ border: 0, borderRadius: '12px' }}
                         allowFullScreen
                         loading="lazy"
@@ -86,10 +86,10 @@ export default function Home(){
                             <p>Instagram: @alcantrabarber</p>
                             <div className="footer-icons">
                                 <a href="https://wa.me/5537991261865" target="_blank" rel="noopener noreferrer">
-                                <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />
+                                <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />
                                 </a>
                                 <a href="https://www.instagram.com/alcantrabarber" target="_blank" rel="noopener noreferrer">
-                                <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram" />
+                                <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram" />
                                 </a>
                             </div>
                         

@@ -9,3 +9,8 @@
     color: #3498db;
     transform: scale(1.1); 
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: 1rem;
+  }
+}

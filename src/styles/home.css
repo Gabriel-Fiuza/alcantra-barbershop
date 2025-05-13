@@ -10,28 +10,39 @@ header img{
     margin-left: 20%;
     margin-right: 10%;
 }
+.nav-icons{
+    display: flex;
+}
 .services{
     margin-top: 2rem;
 }
 .local-hours-content{
     display: flex;
-    justify-content: space-between;
 }
 .hours{
     display: flex;
 }
 .hours img{
     width: 18rem;
+    height: 370px;
 }
 .location{
     margin: auto auto;
     margin-left: 4.2rem;
+    width: 160%;
+}
+.location iframe{
+    height: 300px;
 }
 .footer{
     display: flex;
     justify-content: center;
     background-color: #000;
     color: #fff;
+}
+.footer-icons img{
+    height: 48px;
+    width: 48px;
 }
 .logo-barra{
     height: 11rem;
@@ -47,7 +58,6 @@ header img{
     gap: .5rem;
 }
 header a{
-    
     background-color: rgb(218, 218, 218);
     margin: auto;
     font-size: 1.2rem;
@@ -72,11 +82,11 @@ header a{
 }
 .aboutus p{
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-weight: 700;
+    /* font-weight: 700;
     line-height: 2rem;
     font-size: 1.2rem;
     padding: 4rem;
-    margin-top: -2rem;
+    margin-top: -2rem; */
 }
 .aboutus img{
     border-radius: 0.1rem;
@@ -100,6 +110,10 @@ header a{
     display: flex;
     gap: 2rem;
 }
+.icons img{
+    width: 50px;
+    height: 50px;
+}
 .icons button, .icons a{
     display: flex;
     justify-content: center;
@@ -119,5 +133,81 @@ button{
 }
 button:hover{
     transform: scale(1.05);
+}
+@media (max-width: 425px) {
+    p, .aboutus p{
+        font-size: 0.5rem;
+    }
+    .download p{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .aboutus p{
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-weight: 700;
+        padding: 1rem;
+        margin-top: 0;
+    }
+    .nav-icons, header a{
+        display: none;
+    }
+    .aboutus{
+        display: flex;
+        height: 10rem;
+        border-bottom: 2px solid #000;
+    }
+    .about h2{
+        font-family: "Special Gothic Expanded One", sans-serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .services{
+        margin-top: 1rem;
+    }
+    .local-hours-content{
+        display: flex;
+        justify-content: center;
+    }
+    .location{ 
+        margin-left: 0;
+    }
+    .location iframe{
+        margin: auto auto;
+        height: 5rem;
+        width: 10rem;
+    }
+   .hours img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .feedbacks img{
+        height: 10rem;
+    }
+    header{
+        height: 4rem;
+        background-color: #000;
+        position: relative;
+        justify-content: center;
+    }
+    header img{
+        height: 4rem;
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .footer{
+        align-items: center;
+        height: 7rem;
+    }
+    .footer-icons img{
+        height: 25px;
+        width: 25px;
+    }
+    .logo-barra{
+        height: 5rem;
+        width: 5rem;
+    }
 }
 
