@@ -134,7 +134,7 @@ button{
 button:hover{
     transform: scale(1.05);
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     p, .aboutus p{
         font-size: 0.5rem;
     }
