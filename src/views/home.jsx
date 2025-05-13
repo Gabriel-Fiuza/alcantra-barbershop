@@ -60,7 +60,7 @@ export default function Home(){
             </div>
             <div className="local-hours-content">
                 <div className="hours">
-                    <img src={horario1} alt="horário de funcionamento" height='370' />
+                    <img src={horario1} alt="horário de funcionamento" height='370'/>
                     <img src={horario2} alt="horário de funcionamento" height='370' />
                 </div>
                 <div className="location">

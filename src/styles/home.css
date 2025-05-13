@@ -7,20 +7,21 @@ header{
     top: 0;
 }
 header img{
-    margin-left: 4rem;
-    margin-right: 11rem;
+    margin-left: 20%;
+    margin-right: 10%;
 }
 .services{
     margin-top: 2rem;
 }
 .local-hours-content{
     display: flex;
+    justify-content: space-between;
 }
 .hours{
     display: flex;
 }
 .hours img{
-    width: 16.5rem;
+    width: 18rem;
 }
 .location{
     margin: auto auto;
@@ -60,8 +61,9 @@ header a{
 .about h2{
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
-    margin-top: 2rem;
-    margin-left: 26rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
 }
 .aboutus{
     display: flex;
