@@ -15,11 +15,12 @@
   text-transform: uppercase;
 }
 body{
-  background-color: rgb(181, 181, 181);
+  background-color: rgb(219, 219, 219);
 }
 button{
   padding: 12px 20px;
   background-color: rgb(255, 255, 255);;
+  cursor: pointer;
 }
 @media (max-width: 768px){
   *{
