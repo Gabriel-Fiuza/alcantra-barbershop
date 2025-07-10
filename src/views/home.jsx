@@ -41,7 +41,7 @@ export default function Home(){
                     <Service title='HIDRATAÇÃO CABELO OU BARBA' price='25,00'/>
                     <Service title='CONSULTORIA VISAGISTA' price='150,00'/> */}
                     <div className="icons">
-                        <a href="https://apps.apple.com/br/app/alcantra-barbearia/id6743761947"><button><img  src="https://img.icons8.com/fluency/48/apple-app-store.png" alt="apple-app-store"/>App store</button></a>
+                        <a href="https://apps.apple.com/br/app/alcantra-barbearia/id6743761947"><button><img  src="https://img.icons8.com/fluency/48/apple-app-store.png" alt="apple-app-store"/>Appstore</button></a>
                         <a href="https://play.google.com/store/apps/details?id=alcantrabarbearia.bestbarbers.app"><button><img  src="https://img.icons8.com/fluency/48/google-play-store-new.png" alt="google-play-store-new"/>Playstore</button></a>    
                     </div>
                 </div>
