@@ -14,7 +14,7 @@ export default function Home(){
             <header id="home">
                 <img src={logo} alt="" />
                 <div className="nav-icons">
-                    <Navigation  title="Home" />
+                    <Navigation title="Home" />
                     <Navigation title="Sobre" />
                     <Navigation title="Clube" />
                 </div>
